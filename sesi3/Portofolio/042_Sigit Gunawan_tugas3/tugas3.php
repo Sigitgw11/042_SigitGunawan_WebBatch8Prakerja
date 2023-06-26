@@ -1,10 +1,20 @@
-<html>
-    <head>
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="tugas3.css">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="tugas3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <script src="jquery-main/jquery.js"></script>
+  </head>
 
     <body>
+        <header>
         <nav>
             <ul>
                 <li><a href="#">home</a></li>
@@ -14,6 +24,17 @@
                 <li><a href="#">my inventory</a></li>
             </ul>
         </nav>
+        <div class="menu-toggle">
+        <i class="fa fa-bars"></i>
+        </div>
+</header>
+    <script>
+      $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+          $("nav").toggleClass("active");
+        });
+      });
+    </script>
 
         <section>
             <div class="cards">

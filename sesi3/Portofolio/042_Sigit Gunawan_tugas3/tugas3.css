@@ -1,5 +1,10 @@
-html {
+/* html {
   background-color: aliceblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -29,10 +34,102 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: aliceblue;
+} */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(228, 236, 236);
+}
+header {
+  position: absolute;
+  background: #ffffff;
+  top: 0;
+  left: 0;
+  padding: 0 100px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  color: rgb(83, 83, 83);
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+  display: block;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+  color: #ffffff;
+  background-color: #aaaaaa;
+}
+
+.menu-toggle {
+  color: rgb(94, 94, 94);
+  float: right;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+/* responsive */
+
+@media (max-width: 650px) {
+  header {
+    padding: 0 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  header nav {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: #333;
+    top: 50px;
+    left: -100%;
+    transition: 0.5s all;
+  }
+
+  header nav.active {
+    left: 0;
+  }
+
+  header nav ul {
+    display: block;
+    text-align: center;
+  }
+  header nav ul li a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+  }
 }
 
 section {
-  margin: 20px;
+  margin: 80px;
 }
 
 form {
@@ -40,6 +137,7 @@ form {
 }
 
 form input {
+  margin: auto;
   width: 100%;
   margin-bottom: 16px;
 }
@@ -120,13 +218,13 @@ form input[type="submit"] {
   cursor: pointer;
 }
 .btn-column2:hover {
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50;
   color: white;
 }
 .tabel {
   margin-top: 8px;
   color: white;
   font-weight: bolder;
-  padding-inline: 20px;
+  padding-inline: 0;
 }
 /* tambahkan CSS untuk section profile disini */
