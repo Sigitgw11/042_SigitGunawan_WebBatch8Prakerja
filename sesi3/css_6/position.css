@@ -1,0 +1,32 @@
+.kotak1 {
+  background-color: red;
+  position: absolute;
+  left: 50px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Style for kotak2 class with Position Relative */
+.kotak2 {
+  background-color: green;
+  position: relative;
+  left: 40px;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+/* Style for kotak3 class with Position Static */
+.kotak3 {
+  background-color: blue;
+  position: static;
+  left: 40px;
+  padding: 10px;
+}
+
+/* Style for kotak4 class with Position Fixed */
+.kotak4 {
+  background-color: yellow;
+  position: fixed;
+  left: 40px;
+  padding: 10px;
+}

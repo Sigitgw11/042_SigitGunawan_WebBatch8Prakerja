@@ -1,0 +1,64 @@
+body {
+  background-color: #000;
+}
+.navbar {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  font-family: arial;
+}
+
+.navbar ul {
+  background: #a2a9a9;
+  padding: 0 20px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 98%;
+}
+
+.navbar-nav ul li {
+  float: right;
+}
+
+.navbar-nav ul li:hover {
+  background: #fffefe;
+}
+
+.navbar-nav ul li:hover a {
+  color: #000;
+}
+
+.navbar-nav ul li a {
+  display: block;
+  padding: 25px;
+  color: #ffffff90;
+  text-decoration: none;
+}
+form {
+  overflow: hidden;
+}
+label {
+  float: left;
+  padding-bottom: 5px;
+  width: 200px;
+  margin-left: 10px;
+}
+.cform {
+  float: left;
+  width: calc(100% - 200px);
+  margin-left: 10px;
+}
+.btn {
+  background-color: forestgreen;
+  border-color: #000;
+  color: white;
+  padding: 0 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  width: calc(100% - 200px);
+}

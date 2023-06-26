@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(129, 187, 237);
+  margin: 0;
+}
+.navbar {
+  text-align: center;
+  width: 100%;
+  font-family: arial;
+}
+.navbar ul {
+  background: white;
+  padding: 0 20px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 98%;
+}
+
+.navbar ul li {
+  float: right;
+}
+.navbar ul li:hover {
+  background: whitesmoke;
+}
+
+.navbar ul li:hover a {
+  color: #000;
+}
+.navbar ul li a {
+  display: block;
+  padding: 25px;
+  color: black;
+  text-decoration: none;
+}
+.cols {
+  margin: 0;
+  padding: 0;
+}
+.box-1 {
+  background-color: white;
+  margin: 20px;
+  padding: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.box-2 {
+  background-color: white;
+  margin: 20px;
+  padding: auto;
+}
+form {
+  overflow: hidden;
+}
+label {
+  float: left;
+  color: black;
+  margin-top: 10px;
+}
+.label1 {
+  float: left;
+  width: 100%;
+}
+.bxbtn1 {
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.bxbtn2 {
+  background-color: white;
+  border-color: forestgreen;
+  border-radius: 5px;
+  color: forestgreen;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.bxbtn2:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+.btn {
+  width: 100%;
+  padding: auto;
+  background-color: forestgreen;
+  border-color: #000;
+  color: white;
+  font-size: 16px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+@media (min-width: 992px) {
+  .selector {
+    width: 970px;
+  }
+}
+
+@media (max-width: 768px) {
+  .selector {
+    width: 750px;
+  }
+}

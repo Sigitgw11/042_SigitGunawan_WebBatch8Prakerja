@@ -1,0 +1,31 @@
+/* Style for tulisan_kiri class */
+.tulisan_kiri {
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  text-align: left;
+  color: blue;
+}
+
+/* Style for tulisan_kanan class */
+.tulisan_kanan {
+  font-family: "Times New Roman", serif;
+  font-size: 36px;
+  text-align: right;
+  color: red;
+}
+
+/* Style for tulisan_tengah class */
+.tulisan_tengah {
+  font-family: Verdana, sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: green;
+}
+
+/* Style for tulisan-justify class */
+.tulisan-justify {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  text-align: justify;
+  color: #333;
+}
