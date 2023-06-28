@@ -1,1 +1,1 @@
-alert("Saya Memangil Javascript Melalui alert.js");
+console.log("Hi, Ini Kode Javascript");

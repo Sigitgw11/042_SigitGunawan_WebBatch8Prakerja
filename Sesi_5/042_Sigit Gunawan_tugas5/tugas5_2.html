@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Event</title>
+  </head>
+  <body>
+    <h1>Hitung Maju Mundur</h1>
+    <!-- Button to increment the number -->
+    <button onclick="maju()">Maju</button>
+    <!-- Button to decrement the number -->
+    <button onclick="mundur()">Mundur</button><br />
+    <!-- Element to display the number -->
+    <span id="hasil">0</span>
+    <script>
+      // Inisialisasi variabel
+      var number = 0;
+
+      // Function maju
+      function maju() {
+        number++;
+        document.getElementById("hasil").textContent = number;
+      }
+
+      // Function mundur
+      function mundur() {
+        number--;
+        document.getElementById("hasil").textContent = number;
+      }
+    </script>
+  </body>
+</html>
