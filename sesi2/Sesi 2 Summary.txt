@@ -1,0 +1,12 @@
+Sesi 2
+
+1. Pengenalan Tag HTML
+2. Struktur file HTML
+3. Memuat Gambar
+4. Membuat Link
+5. Heading / Penjudulan
+6. Membuat Daftar List
+7. Memahami Tag <div>
+8. Memahami Form
+9. Memahami Tabel
+10. HTML Layouting

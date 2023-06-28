@@ -1,0 +1,5 @@
+Sesi 1
+
+1. Pengenalan web programing dan tools
+2. Membuat Folder dan file html
+3. Install Vs Code Serta Extension Live Server

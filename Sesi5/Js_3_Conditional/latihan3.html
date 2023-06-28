@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Belajar Kondisional</title>
+  </head>
+  <body>
+    <label>Nilai :</label><input id="Nilai" type="number" /><br /><br />
+    <button onclick="cekNilai()">Cek Grade</button>
+    <p id="hasil"></p>
+    <script>
+      function cekNilai() {
+        let Nilai = document.getElementById("Nilai").value;
+        let hasil;
+
+        if (Nilai >= 85) {
+          hasil = "A";
+        } else if (Nilai >= 75) {
+          hasil = "B";
+        } else if (Nilai >= 65) {
+          hasil = "C";
+        } else if (Nilai >= 55) {
+          hasil = "D";
+        } else {
+          hasil = "E";
+        }
+
+        document.getElementById("hasil").innerHTML = hasil;
+      }
+    </script>
+  </body>
+</html>

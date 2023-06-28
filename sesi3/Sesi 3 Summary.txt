@@ -1,0 +1,5 @@
+Sesi 3
+
+1. Belajar CSS ( Eksternal dan Internal)
+2. Belajar Git dan GitHub
+3. Style CSS

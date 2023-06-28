@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan</title>
+  </head>
+  <body>
+    <label>Pesan : </label><input id="bk1" type="text" /><br />
+    <label>Berapa Kali : </label><input id="bk2" type="text" /><br />
+    <button onclick="cetak()">Cetak!</button>
+    <ol id="list"></ol>
+
+    <script>
+      function cetak() {
+        const dt = document.getElementById("list");
+        const pesan = document.getElementById("bk1").value;
+        const berapaKali = parseInt(document.getElementById("bk2").value);
+        dt.innerHTML = ""; // Clear existing list elements
+
+        let i = 0; // Corrected line
+        while (i < berapaKali) {
+          dt.innerHTML += `<li>${pesan}</li>`;
+          i++; // Increment i by 1 in each iteration
+        }
+      }
+    </script>
+  </body>
+</html>

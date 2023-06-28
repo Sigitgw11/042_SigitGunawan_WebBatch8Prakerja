@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar perulangan</title>
+  </head>
+
+  <body>
+    <button onclick="print()">Print Makanan Kesukaan</button>
+
+    <ul id="list"></ul>
+
+    <script>
+      function print() {
+        const dt = document.getElementById("list");
+        const list_makanan = ["nasi goreng", "mie goreng", "ayam bakar"];
+        for (let index = 0; index < list_makanan.length; index++) {
+          dt.innerHTML = dt.innerHTML + "<li>" + list_makanan[index] + "</li>";
+        }
+      }
+    </script>
+  </body>
+</html>

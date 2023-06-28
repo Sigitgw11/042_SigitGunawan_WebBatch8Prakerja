@@ -1,0 +1,5 @@
+Sesi 4
+
+1. Belajar Algoritma
+2. Belajar Pseudocode
+3. Conditional Concept
